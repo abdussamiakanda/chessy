@@ -1,6 +1,20 @@
+@media screen and (min-width: 40em) {
+    body {
+        margin-top: 100px;
+    }
+    .board {
+        margin: 0px auto;
+        width: 396px;
+    }
+}
 
-
-
-.board {
-    margin: 0px auto;
+@media screen and (min-width: 0em) and (max-width: 40em) {
+    body {
+        margin-top: 100px;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .board {
+        margin: 0px auto;
+    }
 }
